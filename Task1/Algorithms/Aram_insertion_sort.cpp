@@ -7,7 +7,7 @@ int main() {
 int arr[size]={2,4,1,3,6,7,5,10,15,9};
 int i=1,j=0,key;
 
-std::cout<<"unsorrted array"<<std::endl;
+std::cout<<"unsorted array"<<std::endl;
 
 
 for(i=0;i<size;i++)
@@ -28,7 +28,7 @@ for(i=1;i<size;i++)
     }
     arr[j+1]=key;
 }
-std::cout<<"sorrted array"<<std::endl;
+std::cout<<"sorted array"<<std::endl;
 
 for(i=0;i<size;i++)
 {
